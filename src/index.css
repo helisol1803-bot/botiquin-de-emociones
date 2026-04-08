@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600&display=swap');
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+
+  --color-primary: #2A5C82; /* Deep Blue for trust */
+  --color-primary-foreground: #FFFFFF;
+  
+  --color-secondary: #4A8C71; /* Soft Green for tranquility */
+  --color-secondary-foreground: #FFFFFF;
+  
+  --color-accent: #F27D26; /* Warm Orange for warmth/action */
+  --color-accent-foreground: #FFFFFF;
+  
+  --color-warm-bg: #FDFBF7; /* Warm off-white */
+  --color-soft-gray: #F3F4F6;
+
+  /* shadcn variables mapping */
+  --color-background: var(--color-warm-bg);
+  --color-foreground: #111827;
+  
+  --color-card: #FFFFFF;
+  --color-card-foreground: #111827;
+  
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #111827;
+  
+  --color-muted: #F3F4F6;
+  --color-muted-foreground: #6B7280;
+  
+  --color-border: #E5E7EB;
+  --color-input: #E5E7EB;
+  --color-ring: var(--color-primary);
+  
+  --radius-lg: 1rem;
+  --radius-md: 0.75rem;
+  --radius-sm: 0.5rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .container-wide {
+    @apply max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+}
