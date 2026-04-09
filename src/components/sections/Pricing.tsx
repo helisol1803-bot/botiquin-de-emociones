@@ -4,7 +4,7 @@ import { CheckCircle } from "lucide-react";
 
 export function Pricing() {
   return (
-    <section id="pricing" className="bg-white section-padding">
+    <section id="pricing" className="bg-background section-padding">
       <div className="container-wide max-w-4xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl text-primary mb-4">
@@ -36,13 +36,13 @@ export function Pricing() {
             <p className="text-2xl text-gray-600">Pero hoy, por tiempo limitado:</p>
             <div className="flex flex-col items-center">
               <span className="text-3xl text-red-500 line-through font-bold">~~$15.90~~</span>
-              <span className="text-7xl md:text-8xl font-black text-accent drop-shadow-sm">
+              <span className="text-7xl md:text-8xl font-black text-black drop-shadow-sm">
                 $7.90 <span className="text-2xl">USD</span>
               </span>
             </div>
             
             <div className="pt-8">
-              <Button size="lg" className="w-full bg-accent hover:bg-accent/90 text-white text-xl md:text-2xl px-8 py-10 h-auto rounded-full shadow-2xl transition-all hover:scale-105 uppercase font-black">
+              <Button size="lg" className="w-full bg-red-600 hover:bg-red-700 text-white text-xl md:text-2xl px-8 py-10 h-auto rounded-full shadow-2xl transition-all hover:scale-105 uppercase font-black">
                 🚀 OBTÉN ACCESO INMEDIATO
               </Button>
               <p className="mt-4 text-gray-500 font-medium">SÍ, QUIERO TRANSFORMAR LA VIDA EMOCIONAL DE MI HIJO</p>

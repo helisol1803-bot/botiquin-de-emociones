@@ -25,7 +25,7 @@ export function FinalCTA() {
                 Todo comienza con una decisión hoy.
               </p>
               
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-white text-xl md:text-2xl px-12 py-10 h-auto rounded-full shadow-2xl transition-all hover:scale-105 uppercase font-black w-full md:w-auto">
+              <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white text-xl md:text-2xl px-12 py-10 h-auto rounded-full shadow-2xl transition-all hover:scale-105 uppercase font-black w-full md:w-auto">
                 OBTENER EL BOTIQUÍN DE RESCATE EMOCIONAL - $7.90
               </Button>
               

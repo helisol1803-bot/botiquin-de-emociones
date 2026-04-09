@@ -66,11 +66,11 @@ export default function App() {
             initial={{ y: 100 }}
             animate={{ y: 0 }}
             exit={{ y: 100 }}
-            className="fixed bottom-0 left-0 right-0 p-4 bg-white/80 backdrop-blur-md border-t border-gray-200 z-50 md:hidden"
+            className="fixed bottom-0 left-0 right-0 p-4 bg-background/80 backdrop-blur-md border-t border-primary/10 z-50 md:hidden"
           >
             <Button 
               onClick={scrollToPricing}
-              className="w-full bg-accent hover:bg-accent/90 text-white font-bold py-6 rounded-xl shadow-lg"
+              className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-6 rounded-xl shadow-lg"
             >
               ¡QUIERO MI BOTIQUÍN AHORA! - $7.90
             </Button>

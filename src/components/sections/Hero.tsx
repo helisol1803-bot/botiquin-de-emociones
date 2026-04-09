@@ -1,9 +1,10 @@
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
+import mamaImg from "../../mama.png";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-white py-10 md:section-padding">
+    <section className="relative overflow-hidden bg-background py-10 md:section-padding">
       <div className="container-wide px-4">
         <div className="flex flex-col items-center text-center">
           <motion.div
@@ -28,7 +29,7 @@ export function Hero() {
 
             <div className="mt-12 relative">
               <img 
-                src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=800&q=80" 
+                src={mamaImg} 
                 alt="Madre consolando a su hijo" 
                 className="rounded-2xl shadow-2xl mx-auto border-8 border-white max-h-[500px] object-cover"
                 referrerPolicy="no-referrer"

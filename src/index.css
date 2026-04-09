@@ -5,20 +5,20 @@
   --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Poppins", sans-serif;
 
-  --color-primary: #2A5C82; /* Deep Blue for trust */
+  --color-primary: #4C1D95; /* Deep Purple/Violet for harmony with lilac */
   --color-primary-foreground: #FFFFFF;
   
-  --color-secondary: #4A8C71; /* Soft Green for tranquility */
+  --color-secondary: #7C3AED; /* Medium Purple */
   --color-secondary-foreground: #FFFFFF;
   
-  --color-accent: #F27D26; /* Warm Orange for warmth/action */
+  --color-accent: #F27D26; /* Keep orange for contrast/action */
   --color-accent-foreground: #FFFFFF;
   
-  --color-warm-bg: #FDFBF7; /* Warm off-white */
-  --color-soft-gray: #F3F4F6;
+  --color-warm-bg: #F5F3FF; /* Light Lilac */
+  --color-soft-gray: #EDE9FE; /* Deeper Lilac */
 
   /* shadcn variables mapping */
-  --color-background: var(--color-warm-bg);
+  --color-background: #FAF5FF; /* Base very light lilac */
   --color-foreground: #111827;
   
   --color-card: #FFFFFF;

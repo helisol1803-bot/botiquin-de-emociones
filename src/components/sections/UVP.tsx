@@ -32,14 +32,15 @@ export function UVP() {
   ];
 
   return (
-    <section className="bg-white section-padding">
+    <section className="bg-background section-padding">
       <div className="container-wide">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl text-primary mb-4">
-            Presentamos: <span className="text-accent">EL BOTIQUÍN DE RESCATE EMOCIONAL 🚑</span>
+          <h2 className="text-3xl md:text-5xl text-primary mb-4 leading-tight">
+            Presentamos La Guía <br />
+            <span className="text-accent">EL BOTIQUÍN DE RESCATE EMOCIONAL 🚑</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto px-4">
-            El único método que funciona como un botiquín de primeros auxilios emocionales.
+            El método que funciona como un botiquín de primeros auxilios emocionales.
           </p>
         </div>
 
@@ -105,7 +106,7 @@ export function UVP() {
           <Button 
             onClick={scrollToPricing}
             size="lg" 
-            className="bg-accent hover:bg-accent/90 text-white text-lg px-8 py-8 h-auto rounded-full shadow-lg transition-transform hover:scale-105 uppercase font-bold"
+            className="bg-red-600 hover:bg-red-700 text-white text-lg px-8 py-8 h-auto rounded-full shadow-lg transition-transform hover:scale-105 uppercase font-bold"
           >
             SÍ, QUIERO TRANSFORMAR LA VIDA EMOCIONAL DE MI HIJO
           </Button>

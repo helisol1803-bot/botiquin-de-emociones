@@ -21,7 +21,7 @@ export function DeepAnalysis() {
   ];
 
   return (
-    <section className="bg-white section-padding">
+    <section className="bg-background section-padding">
       <div className="container-wide">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl text-primary mb-4">

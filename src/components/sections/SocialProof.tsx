@@ -8,7 +8,7 @@ export function SocialProof() {
       name: "María Elena",
       role: "Madre de 2 niños",
       text: "En solo una semana, mi hijo de 7 años ya me dice 'mamá, siento que tengo rabia' en lugar de explotar. ¡Es increíble!",
-      image: "https://i.pravatar.cc/150?u=maria"
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
     },
     {
       name: "Asunción",
@@ -20,12 +20,12 @@ export function SocialProof() {
       name: "Laura G.",
       role: "Madre de 3 niños",
       text: "Por fin un material que no es pura teoría. Vamos directo a la actividad y la calma vuelve a casa en minutos.",
-      image: "https://i.pravatar.cc/150?u=laura"
+      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80"
     }
   ];
 
   return (
-    <section className="bg-white section-padding">
+    <section className="bg-background section-padding">
       <div className="container-wide">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl text-primary mb-4">

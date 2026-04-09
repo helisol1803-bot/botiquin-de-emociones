@@ -12,14 +12,14 @@ export function Bonuses() {
     },
     {
       number: 2,
-      title: "15 Mandalas para colorear",
+      title: "50 Mandalas para colorear",
       value: "$8 USD",
       desc: "Actividades que tu hijo puede hacer solo para calmarse mientras tú recuperas energías."
     }
   ];
 
   return (
-    <section className="bg-accent/5 section-padding">
+    <section className="bg-secondary/10 section-padding">
       <div className="container-wide">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl text-primary mb-4">
@@ -60,7 +60,7 @@ export function Bonuses() {
         
         <div className="mt-12 text-center">
           <p className="text-2xl font-bold text-primary">
-            Valor total de los bonos: <span className="text-accent">$23 USD</span>
+            Valor total de los bonos: <span className="text-accent line-through opacity-60">$23 USD</span>
           </p>
         </div>
       </div>

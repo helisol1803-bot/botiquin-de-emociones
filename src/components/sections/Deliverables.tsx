@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { BookOpen, CheckSquare, Layout, Heart, Shield } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import librosImg from "../../libros.jpg";
 
 export function Deliverables() {
   const materials = [
@@ -27,7 +28,7 @@ export function Deliverables() {
   ];
 
   return (
-    <section className="bg-white section-padding">
+    <section className="bg-background section-padding">
       <div className="container-wide">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl text-primary mb-4">
@@ -40,33 +41,14 @@ export function Deliverables() {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="bg-warm-bg p-8 rounded-3xl border-2 border-primary/10 shadow-xl"
+            className="relative"
           >
-            <div className="flex items-center gap-4 mb-6">
-              <div className="bg-primary p-3 rounded-2xl">
-                <BookOpen className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-2xl font-bold text-primary">DIRECTOR: El Botiquín de Rescate Emocional</h3>
-            </div>
-            
-            <p className="text-gray-700 mb-6 leading-relaxed">
-              Libro digital de <span className="font-bold">+190 páginas</span> con <span className="font-bold">+150 actividades prácticas</span> organizadas por emociones. Acceso directo según la crisis:
-            </p>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-              <div className="bg-white p-4 rounded-xl text-center shadow-sm">
-                <p className="text-sm text-gray-500">¿Tristeza?</p>
-                <p className="font-bold text-primary">Página 45</p>
-              </div>
-              <div className="bg-white p-4 rounded-xl text-center shadow-sm">
-                <p className="text-sm text-gray-500">¿Miedo?</p>
-                <p className="font-bold text-primary">Página 78</p>
-              </div>
-              <div className="bg-white p-4 rounded-xl text-center shadow-sm">
-                <p className="text-sm text-gray-500">¿Rabieta?</p>
-                <p className="font-bold text-primary">Página 112</p>
-              </div>
-            </div>
+            <img 
+              src={librosImg} 
+              alt="Libros y materiales del Botiquín de Rescate Emocional" 
+              className="rounded-3xl shadow-2xl w-full object-cover border-4 border-white"
+              referrerPolicy="no-referrer"
+            />
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
