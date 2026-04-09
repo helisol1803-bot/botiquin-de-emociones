@@ -27,6 +27,7 @@ export function Hero() {
             </p>
 
             <div className="mt-12 relative">
+              {/* Usando ruta absoluta desde la raíz para compatibilidad con Vercel */}
               <img 
                 src="/mama.png" 
                 alt="Madre consolando a su hijo" 

@@ -58,6 +58,7 @@ export function Benefits() {
             </div>
           </div>
           <div className="lg:w-1/2">
+            {/* Usando ruta absoluta desde la raíz para compatibilidad con Vercel */}
             <img 
               src="/familia.png" 
               alt="Madre e hijo jugando con tarjetas de emociones" 

@@ -88,6 +88,7 @@ export function UVP() {
               <Heart className="w-10 h-10 fill-current" />
             </motion.div>
 
+            {/* Usando ruta absoluta desde la raíz para compatibilidad con Vercel */}
             <img 
               src="/botiquin.jpg" 
               alt="Botiquín Emocional" 
