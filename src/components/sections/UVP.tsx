@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Zap, Clock, Users, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import botiquinImg from "@/src/assets/botiquin.jpg";
 
 export function UVP() {
   const scrollToPricing = () => {
@@ -89,7 +90,7 @@ export function UVP() {
             </motion.div>
 
             <img 
-              src="/botiquin.jpg" 
+              src={botiquinImg} 
               alt="Botiquín Emocional" 
               className="rounded-3xl shadow-2xl border-8 border-white relative z-0"
               referrerPolicy="no-referrer"
