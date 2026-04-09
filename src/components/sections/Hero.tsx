@@ -32,7 +32,6 @@ export function Hero() {
                 src={mamaImg} 
                 alt="Madre consolando a su hijo" 
                 className="rounded-2xl shadow-2xl mx-auto border-8 border-white max-h-[500px] object-cover"
-                referrerPolicy="no-referrer"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-xl hidden md:block">
                 <p className="text-primary font-bold text-sm">✨ Método Probado</p>

@@ -47,7 +47,6 @@ export function Deliverables() {
               src={librosImg} 
               alt="Libros y materiales del Botiquín de Rescate Emocional" 
               className="rounded-3xl shadow-2xl w-full object-cover border-4 border-white"
-              referrerPolicy="no-referrer"
             />
           </motion.div>
 

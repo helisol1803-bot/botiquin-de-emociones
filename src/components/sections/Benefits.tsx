@@ -63,7 +63,6 @@ export function Benefits() {
               src={familiaImg} 
               alt="Madre e hijo jugando con tarjetas de emociones" 
               className="rounded-3xl shadow-2xl"
-              referrerPolicy="no-referrer"
             />
           </div>
         </div>

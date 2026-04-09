@@ -93,7 +93,6 @@ export function UVP() {
               src={botiquinImg} 
               alt="Botiquín Emocional" 
               className="rounded-3xl shadow-2xl border-8 border-white relative z-0"
-              referrerPolicy="no-referrer"
             />
             <div className="absolute bottom-6 right-6 z-20">
                <div className="bg-white/90 backdrop-blur-sm p-4 rounded-2xl text-right shadow-xl border border-primary/10">
