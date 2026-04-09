@@ -42,7 +42,7 @@ export function Deliverables() {
             viewport={{ once: true }}
             className="relative"
           >
-            {/* Usando ruta absoluta desde la raíz para compatibilidad con Vercel */}
+            {/* Usando la imagen real subida por el usuario */}
             <img 
               src="/libros.jpg" 
               alt="Libros y materiales del Botiquín de Rescate Emocional" 
