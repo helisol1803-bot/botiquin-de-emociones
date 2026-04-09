@@ -28,9 +28,9 @@ export function Hero() {
 
             <div className="mt-12 relative">
               <img 
-                src="https://picsum.photos/seed/child-calm/800/450" 
-                alt="Niño recuperando la calma" 
-                className="rounded-2xl shadow-2xl mx-auto border-8 border-white"
+                src="https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&w=800&q=80" 
+                alt="Madre consolando a su hijo" 
+                className="rounded-2xl shadow-2xl mx-auto border-8 border-white max-h-[500px] object-cover"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-xl hidden md:block">

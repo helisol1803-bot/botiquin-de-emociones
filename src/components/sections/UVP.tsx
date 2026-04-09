@@ -1,7 +1,8 @@
 import { motion } from "motion/react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Target, Zap, Clock, Users } from "lucide-react";
+import { Target, Zap, Clock, Users, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import botiquinImg from "./botiquin.jpg";
 
 export function UVP() {
   const scrollToPricing = () => {
@@ -64,16 +65,39 @@ export function UVP() {
         
         <div className="mt-16 flex flex-col items-center">
           <div className="relative max-w-md mb-12">
+            {/* Corazones flotantes para coincidir con la imagen del usuario */}
+            <motion.div 
+              animate={{ y: [0, -10, 0] }}
+              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+              className="absolute -top-4 -left-4 text-accent/40 z-10"
+            >
+              <Heart className="w-12 h-12 fill-current" />
+            </motion.div>
+            <motion.div 
+              animate={{ y: [0, 10, 0] }}
+              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+              className="absolute top-1/2 -right-8 text-accent/30 z-10"
+            >
+              <Heart className="w-8 h-8 fill-current" />
+            </motion.div>
+            <motion.div 
+              animate={{ scale: [1, 1.1, 1] }}
+              transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
+              className="absolute -bottom-4 left-1/4 text-accent/20 z-10"
+            >
+              <Heart className="w-10 h-10 fill-current" />
+            </motion.div>
+
             <img 
-              src="https://picsum.photos/seed/first-aid-kit/400/400" 
+              src={botiquinImg} 
               alt="Botiquín Emocional" 
-              className="rounded-full shadow-2xl border-8 border-white"
+              className="rounded-3xl shadow-2xl border-8 border-white relative z-0"
               referrerPolicy="no-referrer"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
-               <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl text-center shadow-lg">
-                 <p className="text-accent font-black text-2xl">EL BOTIQUÍN</p>
-                 <p className="text-primary font-bold">Rescate Emocional</p>
+            <div className="absolute bottom-6 right-6 z-20">
+               <div className="bg-white/90 backdrop-blur-sm p-4 rounded-2xl text-right shadow-xl border border-primary/10">
+                 <p className="text-accent font-black text-xl tracking-tighter uppercase">Botiquín de</p>
+                 <p className="text-primary font-bold uppercase text-[10px] tracking-widest">Rescate Emocional</p>
                </div>
             </div>
           </div>
