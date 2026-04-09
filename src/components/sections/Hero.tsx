@@ -1,6 +1,5 @@
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
-import mamaImg from "@/src/assets/mama.png";
 
 export function Hero() {
   return (
@@ -29,7 +28,7 @@ export function Hero() {
 
             <div className="mt-12 relative">
               <img 
-                src={mamaImg} 
+                src="/mama.png" 
                 alt="Madre consolando a su hijo" 
                 className="rounded-2xl shadow-2xl mx-auto border-8 border-white max-h-[500px] object-cover"
               />
