@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Zap, Clock, Users, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import botiquinImg from "./botiquin.jpg";
 
 export function UVP() {
   const scrollToPricing = () => {
@@ -40,7 +39,7 @@ export function UVP() {
             <span className="text-accent">EL BOTIQUÍN DE RESCATE EMOCIONAL 🚑</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto px-4">
-            El método que funciona como un botiquín de primeros auxilios emocionales.
+            El método que funciona como un botiquín de primeros auxilios emocionales porque va:
           </p>
         </div>
 
@@ -90,7 +89,7 @@ export function UVP() {
             </motion.div>
 
             <img 
-              src={botiquinImg} 
+              src="/botiquin.jpg" 
               alt="Botiquín Emocional" 
               className="rounded-3xl shadow-2xl border-8 border-white relative z-0"
               referrerPolicy="no-referrer"
