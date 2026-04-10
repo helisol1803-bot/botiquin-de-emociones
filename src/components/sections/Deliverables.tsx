@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { BookOpen, CheckSquare, Layout, Heart, Shield } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import librosImg from "@/src/assets/libros.jpg";
 
 export function Deliverables() {
   const materials = [
@@ -42,9 +43,8 @@ export function Deliverables() {
             viewport={{ once: true }}
             className="relative"
           >
-            {/* Añadido v=2 para forzar la actualización */}
             <img 
-              src="/libros.jpg?v=2" 
+              src={librosImg} 
               alt="Libros y materiales del Botiquín de Rescate Emocional" 
               className="rounded-3xl shadow-2xl w-full object-cover border-4 border-white"
             />

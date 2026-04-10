@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
+import mamaImg from "@/src/assets/mama.png";
 
 export function Hero() {
   return (
@@ -27,9 +28,8 @@ export function Hero() {
             </p>
 
             <div className="mt-12 relative">
-              {/* Añadido v=2 para forzar la actualización de la imagen en el navegador */}
               <img 
-                src="/mama.png?v=2" 
+                src={mamaImg} 
                 alt="Madre consolando a su hijo" 
                 className="rounded-2xl shadow-2xl mx-auto border-8 border-white max-h-[500px] object-cover"
               />

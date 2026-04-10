@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { CheckCircle2 } from "lucide-react";
+import familiaImg from "@/src/assets/familia.png";
 
 export function Benefits() {
   const benefits = [
@@ -58,9 +59,8 @@ export function Benefits() {
             </div>
           </div>
           <div className="lg:w-1/2">
-            {/* Añadido v=2 para forzar la actualización */}
             <img 
-              src="/familia.png?v=2" 
+              src={familiaImg} 
               alt="Madre e hijo jugando con tarjetas de emociones" 
               className="rounded-3xl shadow-2xl"
             />
