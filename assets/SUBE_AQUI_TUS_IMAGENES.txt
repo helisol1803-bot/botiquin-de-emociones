@@ -1,0 +1,1 @@
+Sube tus imágenes en esta carpeta. Una vez que subas un archivo, la carpeta debería ser visible.

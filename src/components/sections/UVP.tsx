@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Zap, Clock, Users, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import botiquinImg from "@/src/assets/botiquin.jpg";
+import botiquinImg from "@/assets/botiquin.jpg";
 
 export function UVP() {
   const scrollToPricing = () => {

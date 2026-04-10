@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { CheckCircle2 } from "lucide-react";
-import familiaImg from "@/src/assets/familia.png";
+import familiaImg from "@/assets/familia.png";
 
 export function Benefits() {
   const benefits = [

@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { BookOpen, CheckSquare, Layout, Heart, Shield } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import librosImg from "@/src/assets/libros.jpg";
+import librosImg from "@/assets/libros.jpg";
 
 export function Deliverables() {
   const materials = [

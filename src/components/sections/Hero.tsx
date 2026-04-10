@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
-import mamaImg from "@/src/assets/mama.png";
+import mamaImg from "@/assets/mama.png";
 
 export function Hero() {
   return (
