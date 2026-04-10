@@ -58,9 +58,9 @@ export function Benefits() {
             </div>
           </div>
           <div className="lg:w-1/2">
-            {/* Usando la imagen real subida por el usuario */}
+            {/* Añadido v=2 para forzar la actualización */}
             <img 
-              src="/familia.png" 
+              src="/familia.png?v=2" 
               alt="Madre e hijo jugando con tarjetas de emociones" 
               className="rounded-3xl shadow-2xl"
             />

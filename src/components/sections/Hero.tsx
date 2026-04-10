@@ -27,9 +27,9 @@ export function Hero() {
             </p>
 
             <div className="mt-12 relative">
-              {/* Usando las imágenes reales subidas por el usuario */}
+              {/* Añadido v=2 para forzar la actualización de la imagen en el navegador */}
               <img 
-                src="/mama.png" 
+                src="/mama.png?v=2" 
                 alt="Madre consolando a su hijo" 
                 className="rounded-2xl shadow-2xl mx-auto border-8 border-white max-h-[500px] object-cover"
               />

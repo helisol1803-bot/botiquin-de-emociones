@@ -88,9 +88,9 @@ export function UVP() {
               <Heart className="w-10 h-10 fill-current" />
             </motion.div>
 
-            {/* Usando la imagen real subida por el usuario */}
+            {/* Añadido v=2 para forzar la actualización */}
             <img 
-              src="/botiquin.jpg" 
+              src="/botiquin.jpg?v=2" 
               alt="Botiquín Emocional" 
               className="rounded-3xl shadow-2xl border-8 border-white relative z-0"
             />

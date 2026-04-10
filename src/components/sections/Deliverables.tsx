@@ -42,9 +42,9 @@ export function Deliverables() {
             viewport={{ once: true }}
             className="relative"
           >
-            {/* Usando la imagen real subida por el usuario */}
+            {/* Añadido v=2 para forzar la actualización */}
             <img 
-              src="/libros.jpg" 
+              src="/libros.jpg?v=2" 
               alt="Libros y materiales del Botiquín de Rescate Emocional" 
               className="rounded-3xl shadow-2xl w-full object-cover border-4 border-white"
             />
