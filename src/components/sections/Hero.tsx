@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
-import mamaImg from "@/assets/mama.png";
 
 export function Hero() {
+  const mamaImg = "/assets/mama.png?v=3";
   return (
     <section className="relative overflow-hidden bg-background py-10 md:section-padding">
       <div className="container-wide px-4">
