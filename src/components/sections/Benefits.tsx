@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { CheckCircle2 } from "lucide-react";
 
 export function Benefits() {
-  const familiaImg = "/assets/familia.png?v=3";
+  const familiaImg = "/assets/familia-v1.png";
   const benefits = [
     {
       icon: "🎯",

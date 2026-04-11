@@ -3,7 +3,7 @@ import { BookOpen, CheckSquare, Layout, Heart, Shield } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 export function Deliverables() {
-  const librosImg = "/assets/libros.jpg?v=3";
+  const librosImg = "/assets/libros-v1.jpg";
   const materials = [
     {
       icon: <CheckSquare className="w-6 h-6 text-secondary" />,

@@ -4,7 +4,7 @@ import { Target, Zap, Clock, Users, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function UVP() {
-  const botiquinImg = "/assets/botiquin.jpg?v=3";
+  const botiquinImg = "/assets/botiquin-v1.jpg";
   const scrollToPricing = () => {
     document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
   };
